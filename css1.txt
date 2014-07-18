@@ -1,0 +1,14 @@
+node {
+    size: 50px, 50px;
+    shape: circle;
+    fill-color: gray;
+    stroke-color: yellow;
+    text-alignment: center;
+    text-color: black;
+    text-style: bold-italic;
+    text-size: 15;
+    fill-mode: gradient-vertical;
+}
+node:clicked {
+    fill-color: red;
+}
